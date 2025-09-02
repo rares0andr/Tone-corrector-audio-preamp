@@ -1,0 +1,6 @@
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="proiect"/>
+  <table-filter match-name="cursuri"/>
+  <table-filter match-name="studenti"/>
+  <table-filter match-name="proiect"/>
+</hibernate-reverse-engineering>
