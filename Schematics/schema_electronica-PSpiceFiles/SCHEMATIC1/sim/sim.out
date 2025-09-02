@@ -1,0 +1,230 @@
+
+**** 06/11/25 15:47:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\sc
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelespice/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "../../../lib_modelespice/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "../../../lib_modelespice/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\rares\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 1 1Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SCHEMA_ELECTRONICA
+R_R1         N18556 N00662  1k TC=0,0 
+R_R2         N00593 N00606  100k TC=0,0 
+R_R3         0 N00593  150k TC=0,0 
+R_R4         N00710 N00606  22k TC=0,0 
+R_R5         N00662 N00593  100k TC=0,0 
+R_R6         N00696 0  5.6k TC=0,0 
+R_R7         N00696 N001890  330 TC=0,0 
+R_R8         N00898 N00710  1Meg TC=0,0 
+R_R9         0 N00898  180k TC=0,0 
+R_R10         N07710 N00710  100k TC=0,0 
+R_R11         0 N00925  22k TC=0,0 
+R_R12         N00875 N002690  6.8k TC=0,0 
+R_R13         0 N002850  2k TC=0,0 
+R_R14         N00854 N003030  22k TC=0,0 
+R_R15         N00875 N003190  10k TC=0,0 
+R_R16         N20905 N00889  22k TC=0,0 
+R_R17         N20938 N20950  2.2k TC=0,0 
+C_C1         N00580 N18556  100n  TC=0,0 
+C_C3         N001890 N00721  4.7u  TC=0,0 
+C_C4         N00889 N00898  1u  TC=0,0 
+C_C5         0 N00925  4.7u  TC=0,0 
+C_C6         N14157 N01066  4.7u  TC=0,0 
+C_C7         N00606 0  4.7u  TC=0,0 
+C_C8         N00854 N20905  33n  TC=0,0 
+C_C9         N20905 N00884  33n  TC=0,0 
+C_C10         N00721 N20938  2.2n  TC=0,0 
+C_C11         N01841 N00875  2.2n  TC=0,0 
+V_V2         N00710 0 25Vdc
+X_R18         N00854 N20905 N00884 POT PARAMS: SET=0.5 VALUE=100K
+X_R19         N01841 N00889 N20950 POT PARAMS: SET=0.5 VALUE=100K
+R_R21         0 N14772  10Meg TC=0,0 
+V_V1         N00580 0  AC 0.1
++SIN 0 0.1 1k 0 0 0
+Q_Q3         N00710 N07710 N01066 QBC846B 
+Q_Q2         N07710 N00898 N00925 QBC846B 
+Q_Q1         N00710 N00662 N00696 QBC846B 
+C_C71         N00606 0  4.7u  TC=0,0 
+C_C72         N00606 0  4.7u  TC=0,0 
+C_C51         0 N00925  2.2u  TC=0,0 
+C_C52         0 N00925  4.7u  TC=0,0 
+C_C61         N14157 N01066  4.7u  TC=0,0 
+C_C62         N14157 N01066  4.7u  TC=0,0 
+R_R141         N003030 N00721  10k TC=0,0 
+R_R151         N003190 N00884  22k TC=0,0 
+C_C2         N00593 N00696  4.7u  TC=0,0 
+R_R131         N002850 N00875  330 TC=0,0 
+R_R121         N002690 N01066  510 TC=0,0 
+R_R201         N14772 N14157  510 TC=0,0 
+R_R202         0 N14772  510 TC=0,0 
+
+**** RESUMING sim.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file "D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\lib_modelespice\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib" has changed since index file bc807-25.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Fri Nov 01 16:22:56 2024 to Fri Nov 01 17:22:56 2024.
+
+INFO(ORPSIM-15422): Making new index file bc807-25.ind for library file bc807-25.lib.
+
+Index has 1 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file "D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\lib_modelespice\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib" has changed since index file bc817-25.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Fri Nov 01 16:22:56 2024 to Fri Nov 01 17:22:56 2024.
+
+INFO(ORPSIM-15422): Making new index file bc817-25.ind for library file bc817-25.lib.
+
+Index has 1 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file "D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\lib_modelespice\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib" has changed since index file bc846b.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Fri Nov 01 16:22:56 2024 to Fri Nov 01 17:22:56 2024.
+
+INFO(ORPSIM-15422): Making new index file bc846b.ind for library file bc846b.lib.
+
+Index has 1 entries from 1 file(s).
+
+**** 06/11/25 15:47:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\sc
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         
+               NPN             
+       LEVEL    1            
+          IS   18.220000E-15 
+          BF  324.4          
+          NF     .9932       
+         VAF   82            
+         IKF     .109        
+         ISE  289.400000E-18 
+          NE    1.4          
+          BR    8.29         
+          NR     .9931       
+         VAR   17.9          
+         IKR     .09         
+         ISC    9.982000E-12 
+          NC    1.763        
+         ISS    0            
+          RB   10            
+         RBM    5            
+         IRB    5.000000E-06 
+          RE     .649        
+          RC     .7014       
+         CJE   12.440000E-12 
+         VJE     .7579       
+         MJE     .3656       
+         CJC    3.347000E-12 
+         VJC     .5463       
+         MJC     .391        
+        XCJC     .6193       
+         CJS    0            
+         VJS     .75         
+         MJS     .333        
+          FC     .979        
+          TF  490.800000E-12 
+         XTF    9.51         
+         VTF    2.927        
+         ITF     .3131       
+          TR   90.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 06/11/25 15:47:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\sc
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00580)    0.0000 (N00593)   13.3760 (N00606)   22.9040 (N00662)   12.7660     
+
+(N00696)   12.1120 (N00710)   25.0000 (N00721)    2.3567 (N00854)    2.3567     
+
+(N00875)    2.3567 (N00884)    2.3567 (N00889)    2.3567 (N00898)    3.7487     
+
+(N00925)    3.1644 (N01066)    9.7504 (N01841)    2.3567 (N07710)   10.3830     
+
+(N14157)    0.0000 (N14772)    0.0000 (N18556)   12.7660 (N20905)    2.3567     
+
+(N20938)    2.3567 (N20950)    2.3567 (N001890)   12.1120                       
+
+(N002690)    9.2346                   (N002850)    2.0229                       
+
+(N003030)    2.3567                   (N003190)    2.3567                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -3.428E-03
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   8.57E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 06/11/25 15:47:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ D:\facultate\an_3\sem_1\proiect apd_proiect cef\P1_2024_431A_Sava_Rares_PACT_N10_OrCAD\Schematics\sc
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .44
+

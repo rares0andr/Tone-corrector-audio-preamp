@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Friday, November 01, 2024 16:26:52
+STATUS: D:\facultate\orcad\tools\bin\sch2cap -f "D:\facultate\an_3\sem_1\proiect apd_proiect cef\lib_modeleSpice\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib" -o "D:\facultate\an_3\sem_1\proiect apd_proiect cef\lib_modeleSpice\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.olb" -i C:\Users\rares\AppData\Roaming\SPB_Data\.\cdssetup\OrCAD_PSpice/17.2.0/PSpice.ini
+INFO(ORSCH-1029): Using existing library 'D:\facultate\orcad\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1029): Using existing library 'D:\facultate\an_3\sem_1\proiect apd_proiect cef\lib_modeleSpice\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.olb'.
+STATUS: Translator stopped at Friday, November 01, 2024 16:26:52
+STATUS: 0 Error messages, 0 Warning messages

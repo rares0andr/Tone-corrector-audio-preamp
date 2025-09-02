@@ -1,0 +1,88 @@
+
+**** 11/08/24 10:51:57 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim"  [ D:\facultate\an_3\sem_1\proiect apd_proiect cef\schema_electronica-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelespice/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "../../../lib_modelespice/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "../../../lib_modelespice/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\rares\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 1 1Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SCHEMA_ELECTRONICA
+R_R1         N00587 N00662  1k TC=0,0 
+R_R2         N00593 N00606  100k TC=0,0 
+R_R3         0 N00593  120k TC=0,0 
+R_R4         N00710 N00606  30k TC=0,0 
+R_R5         N00662 N00593  100k TC=0,0 
+R_R6         N00696 0  5.6k TC=0,0 
+R_R7         N00696 N00717  360 TC=0,0 
+R_R8         N00898 N00710  1Meg TC=0,0 
+R_R9         0 N00898  200k TC=0,0 
+R_R10         N00921 N00710  100k TC=0,0 
+R_R11         0 N00925  20k TC=0,0 
+R_R12         N00875 N01062  7.3k TC=0,0 
+R_R13         0 N00875  2.33k TC=0,0 
+R_R14         N00854 N00721  32k TC=0,0 
+R_R15         N00875 N00882  32k TC=0,0 
+R_R16         N00861 N00889  22k TC=0,0 
+R_R17         N003511 N01845  2.2k TC=0,0 
+C_C1         N00580 N00587  100n  TC=0,0 
+C_C2         N00593 N00696  4.7u  TC=0,0 
+C_C3         N00717 N00721  4.7u  TC=0,0 
+C_C4         N00889 N00898  1u  TC=0,0 
+C_C5         0 N00925  16u  TC=0,0 
+C_C6         N01073 N01062  22u  TC=0,0 
+C_C7         N00606 0  10u  TC=0,0 
+C_C8         N00854 N00861  33n  TC=0,0 
+C_C9         N00861 N00882  33n  TC=0,0 
+C_C10         N00721 N003511  2.2n  TC=0,0 
+C_C11         N01841 N00875  2.2n  TC=0,0 
+V_V2         N00710 0 25Vdc
+X_R18         N00854 N00861 N00882 POT PARAMS: SET=0.5 VALUE=100K
+X_R19         N01841 N00889 N01845 POT PARAMS: SET=0.5 VALUE=100K
+X_R20         0 N02538 N01073 POT PARAMS: SET=0.5 VALUE=1K
+R_R21         0 N02538  10Meg TC=0,0 
+V_V1         N00580 0  AC 0.1
++SIN 0 0.1 1k 0 0 0
+Q_Q3         N00710 N00921 N01062 QBC846B 
+Q_Q2         N00921 N00898 N00925 QBC846B 
+Q_Q1         N00710 N00662 N00696 QBC846B 
+C_C7'         N00606 0  10u  TC=0,0 
+
+ERROR(ORPSIM-15089): Can not re-define C_C7. C_C7 is either a system defined variable or has already been defined
+--------------$
+ERROR(ORPSIM-16371): Extra text on line
+C_C7''         N00606 0  2.2u  TC=0,0 
+
+ERROR(ORPSIM-15089): Can not re-define C_C7. C_C7 is either a system defined variable or has already been defined
+---------------$
+ERROR(ORPSIM-16371): Extra text on line
+
+**** RESUMING sim.cir ****
+.END
+
