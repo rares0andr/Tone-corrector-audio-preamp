@@ -1,0 +1,19 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Jun 11 15:44:25 2025
+\t (00:00:03)         Host=MYOMEN User=rares Pid=12264 CPUs=12
+\t (00:00:03) CmdLine= D:\facultate\orcad\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 703
+\i (00:00:04) trapsize 720
+\i (00:00:04) trapsize 1196
+\i (00:00:04) trapsize 1071
+\i (00:00:04) trapsize 11053
+\i (00:00:04) trapsize 1094
+\i (00:00:05) generaledit 
+\i (00:00:07) open 
+\i (00:01:31) fillin "menu_cancel"
+\i (00:01:31) generaledit 
+\i (00:01:33) exit 
+\t (00:01:33)     Journal end - Wed Jun 11 15:45:56 2025

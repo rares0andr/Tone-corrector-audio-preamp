@@ -1,0 +1,36 @@
+  Revised: Tuesday, December 31, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials        January 21,2025      12:57:47	Page1
+
+Item	Quantity	Reference	      Part
+______________________________________________
+
+1	1	        C1	            100n		34b
+2	8 C2,C3,C52,C5,C6,C7,C61,C71 4.7u		37a
+3	1	        C4	             1u		36a
+4     3         R2,R5,R10         100k		19a
+5	2	       C8,C9	       33n		34a
+6	2	      C10,C11	      2.2n		31b
+7	3	    C51,C62,C72	      2.2u		36b
+8	3	      Q1,Q2,Q3	     QBC846B	42a
+9	1	         R1	             1k		10a
+10	2	   	R18,R19	      100K		27b
+11	1	         R3           	150k		19b
+12	5	  R4,R11,R14,R16,R151	 22k		17b
+13	1	         R6	            5.6k		14b
+14	2	       R7,R131	       330		7a
+15	1	         R8	            1Meg		22b
+16	1	         R9           	180k		20a
+17	1	         R12	      6.8k	  	15a
+18	1	         R13	       2k        11b
+19	2	       R15,R141	       10k		16b
+20	1	         R17	      2.2k		12a
+21	1	         R21	      10Meg		24a
+22	3	   R121,R201,R202	  510		8a

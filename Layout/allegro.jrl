@@ -1,0 +1,106 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Jun 11 15:51:57 2025
+\t (00:00:03)         Host=MYOMEN User=rares Pid=2428 CPUs=12
+\t (00:00:03) CmdLine= D:\facultate\orcad\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:06) trapsize 703
+\i (00:00:06) trapsize 720
+\i (00:00:06) trapsize 1196
+\i (00:00:06) trapsize 1071
+\i (00:00:06) trapsize 11053
+\i (00:00:06) trapsize 1094
+\i (00:00:07) generaledit 
+\i (00:00:08) open 
+\i (00:00:15) fillin "PCB_3.brd"
+\t (00:00:15) Opening existing design...
+\i (00:00:15) trapsize 158
+\d (00:00:15) Design opened: D:/facultate/an_3/sem_1/proiect apd_proiect cef/P1_2024_431A_Sava_Rares_PACT_N10_OrCAD/Layout/PCB_3.brd
+\i (00:00:15) generaledit 
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 1343.19 958.76
+\i (00:00:17) trapsize 315
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 1343.19 958.77
+\i (00:00:17) trapsize 631
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 1343.19 958.76
+\i (00:00:18) trapsize 1262
+\i (00:00:19) drag_start grid 1961.39 408.69
+\i (00:00:20) roam y 16
+\i (00:00:20) roam y 16
+\i (00:00:20) roam y 16
+\i (00:00:21) drag_stop 2069.89 -18.56
+\i (00:00:22) drag_start grid -115.28 377.59
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -16
+\i (00:00:23) roam x -16
+\i (00:00:23) roam x -16
+\i (00:00:23) roam x -16
+\i (00:00:23) roam x -16
+\i (00:00:24) roam x -16
+\i (00:00:24) roam x -16
+\i (00:00:24) roam x -16
+\i (00:00:24) drag_stop -1190.51 405.35
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1882.86 619.83
+\i (00:00:31) trapsize 631
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1882.86 619.83
+\i (00:00:31) trapsize 315
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1882.86 619.84
+\i (00:00:31) trapsize 158
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1882.86 619.84
+\i (00:00:31) trapsize 315
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1882.86 619.84
+\i (00:00:31) trapsize 631
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1882.87 619.83
+\i (00:00:31) trapsize 1262
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 1882.87 619.84
+\i (00:00:32) trapsize 2523
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1882.87 619.84
+\i (00:00:33) trapsize 1262
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 1739.07 425.55
+\i (00:00:38) trapsize 2523
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 1739.07 425.55
+\i (00:00:39) trapsize 1262
+\i (00:00:41) drag_start grid 1860.19 175.74
+\i (00:00:41) roam y 16
+\i (00:00:42) drag_stop 1920.75 -79.10
+\i (00:03:37) exit 
+\t (00:03:37)     Journal end - Wed Jun 11 15:55:31 2025
